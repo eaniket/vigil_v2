@@ -3,9 +3,11 @@
 Vigil is a local video-anomaly detection demo for Apple Silicon and Python 3.11. The website has two modes:
 
 - **Demo** presents the pre-generated output in `public/output/`.
-- **Test** accepts a local video, runs real C3D inference, and shows that run's analysis and surfaced frames.
+- **Test** accepts a local file selection, waits seven seconds in the browser, and
+  displays the pre-generated `sample_video` result. The file is not uploaded.
 
-There is no Firebase, database, authentication, or cloud upload. Test uploads are deleted after processing; generated results remain local.
+There is no Firebase, database, authentication, or cloud upload. Real C3D inference
+is available separately through the command-line workflow below.
 
 ## Setup
 
