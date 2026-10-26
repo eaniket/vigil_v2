@@ -1,0 +1,12 @@
+{
+  "analysis_file": "out.gif",
+  "complete_clips": 69,
+  "duration_seconds": 37.2,
+  "fps": 30.0,
+  "frame_count": 1116,
+  "score_max": 0.25364983081817627,
+  "score_min": 1.5988609547434862e-08,
+  "surfaced_frame_files": [],
+  "surfaced_frame_indices": [],
+  "thumbnail_file": "thumbnail.png"
+}

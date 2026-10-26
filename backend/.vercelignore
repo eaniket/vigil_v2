@@ -1,0 +1,15 @@
+/vigil_env/
+/input/
+/output/
+/static/
+/trained_models/
+/tests/
+/mockups/
+/runtime/
+/__pycache__/
+/.pytest_cache/
+/requirements-ml.txt
+/generate_demos.py
+/build_deployment_manifest.py
+**/*.pyc
+**/*.npy

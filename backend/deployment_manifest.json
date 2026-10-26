@@ -1,0 +1,799 @@
+{
+  "demos": [
+    {
+      "analysis_url": "/output/demos/assault/out.gif",
+      "camera_id": "CAM-STREET-11",
+      "description": "A person is down on the pavement beside a parked van while another figure remains nearby. The fall and close-range movement form the key review moment.",
+      "incident_report": {
+        "incident_summary": "A person is down on the pavement beside a parked van while another figure remains nearby. The fall and close-range movement form the key review moment.",
+        "timestamp": "00:00\u201300:12",
+        "visual_observations": [
+          "A person is down on the pavement beside a parked van while another figure remains nearby. The fall and close-range movement form the key review moment.",
+          "The anomaly score changes most strongly during the surfaced interval.",
+          "The surrounding footage should be reviewed to establish the full sequence."
+        ],
+        "supporting_evidence": [
+          "Moment 01 \u2014 flagged at frame 53.",
+          "Moment 02 \u2014 flagged at frame 297.",
+          "Moment 03 \u2014 flagged at frame 320."
+        ],
+        "evidence_note": "Illustrative timestamps; actual evidence should link to saved frames from the video.",
+        "recommended_next_steps": [
+          "Review the original footage around the flagged interval.",
+          "If the event is confirmed, notify the designated response team according to local protocol.",
+          "Check adjacent camera feeds for additional context, if authorized."
+        ],
+        "limitations": "The footage indicates a possible anomalous event, but intent, identities, causation, and consequences cannot be established from these frames alone."
+      },
+      "frames": [
+        {
+          "frame_index": 53,
+          "label": "Moment 01",
+          "url": "/output/demos/assault/fr0.png"
+        },
+        {
+          "frame_index": 297,
+          "label": "Moment 02",
+          "url": "/output/demos/assault/fr1.png"
+        },
+        {
+          "frame_index": 320,
+          "label": "Moment 03",
+          "url": "/output/demos/assault/fr2.png"
+        },
+        {
+          "frame_index": 331,
+          "label": "Moment 04",
+          "url": "/output/demos/assault/fr3.png"
+        },
+        {
+          "frame_index": 355,
+          "label": "Moment 05",
+          "url": "/output/demos/assault/fr4.png"
+        }
+      ],
+      "location": "26 Mercer Walk, Riverside",
+      "ready": true,
+      "summary": {
+        "analysis_file": "out.gif",
+        "complete_clips": 22,
+        "duration_seconds": 12.033,
+        "fps": 30.0,
+        "frame_count": 361,
+        "score_max": 0.999998152256012,
+        "score_min": 0.002346932189539075,
+        "surfaced_frame_files": [
+          "fr0.png",
+          "fr1.png",
+          "fr2.png",
+          "fr3.png",
+          "fr4.png"
+        ],
+        "surfaced_frame_indices": [
+          53,
+          297,
+          320,
+          331,
+          355
+        ],
+        "thumbnail_file": "thumbnail.png"
+      },
+      "thumbnail_url": "/output/demos/assault/thumbnail.png",
+      "featured": true,
+      "id": "assault",
+      "label": "Assault"
+    },
+    {
+      "analysis_url": "/output/demos/burglary/out.gif",
+      "camera_id": "CAM-SIDEYARD-03",
+      "description": "Movement appears along a narrow residential driveway between two houses. The subject enters a normally quiet side-yard area close to doors and bins.",
+      "incident_report": {
+        "incident_summary": "Movement appears along a narrow residential driveway between two houses. The subject enters a normally quiet side-yard area close to doors and bins.",
+        "timestamp": "00:00\u201300:13",
+        "visual_observations": [
+          "Movement appears along a narrow residential driveway between two houses. The subject enters a normally quiet side-yard area close to doors and bins.",
+          "The anomaly score changes most strongly during the surfaced interval.",
+          "The surrounding footage should be reviewed to establish the full sequence."
+        ],
+        "supporting_evidence": [
+          "Moment 01 \u2014 flagged at frame 87.",
+          "Moment 02 \u2014 flagged at frame 221.",
+          "Moment 03 \u2014 flagged at frame 234."
+        ],
+        "evidence_note": "Illustrative timestamps; actual evidence should link to saved frames from the video.",
+        "recommended_next_steps": [
+          "Review the original footage around the flagged interval.",
+          "If the event is confirmed, notify the designated response team according to local protocol.",
+          "Check adjacent camera feeds for additional context, if authorized."
+        ],
+        "limitations": "The footage indicates a possible anomalous event, but intent, identities, causation, and consequences cannot be established from these frames alone."
+      },
+      "frames": [
+        {
+          "frame_index": 87,
+          "label": "Moment 01",
+          "url": "/output/demos/burglary/fr0.png"
+        },
+        {
+          "frame_index": 221,
+          "label": "Moment 02",
+          "url": "/output/demos/burglary/fr1.png"
+        },
+        {
+          "frame_index": 234,
+          "label": "Moment 03",
+          "url": "/output/demos/burglary/fr2.png"
+        },
+        {
+          "frame_index": 261,
+          "label": "Moment 04",
+          "url": "/output/demos/burglary/fr3.png"
+        },
+        {
+          "frame_index": 274,
+          "label": "Moment 05",
+          "url": "/output/demos/burglary/fr4.png"
+        },
+        {
+          "frame_index": 341,
+          "label": "Moment 06",
+          "url": "/output/demos/burglary/fr5.png"
+        },
+        {
+          "frame_index": 381,
+          "label": "Moment 07",
+          "url": "/output/demos/burglary/fr6.png"
+        },
+        {
+          "frame_index": 394,
+          "label": "Moment 08",
+          "url": "/output/demos/burglary/fr7.png"
+        },
+        {
+          "frame_index": 408,
+          "label": "Moment 09",
+          "url": "/output/demos/burglary/fr8.png"
+        }
+      ],
+      "location": "903 Alder Court, Fairview",
+      "ready": true,
+      "summary": {
+        "analysis_file": "out.gif",
+        "complete_clips": 25,
+        "duration_seconds": 13.833,
+        "fps": 30.0,
+        "frame_count": 415,
+        "score_max": 0.9238147735595703,
+        "score_min": 0.3085733950138092,
+        "surfaced_frame_files": [
+          "fr0.png",
+          "fr1.png",
+          "fr2.png",
+          "fr3.png",
+          "fr4.png",
+          "fr5.png",
+          "fr6.png",
+          "fr7.png",
+          "fr8.png"
+        ],
+        "surfaced_frame_indices": [
+          87,
+          221,
+          234,
+          261,
+          274,
+          341,
+          381,
+          394,
+          408
+        ],
+        "thumbnail_file": "thumbnail.png"
+      },
+      "thumbnail_url": "/output/demos/burglary/thumbnail.png",
+      "featured": true,
+      "id": "burglary",
+      "label": "Burglary"
+    },
+    {
+      "analysis_url": "/output/demos/shoplifting/out.gif",
+      "camera_id": "CAM-RETAIL-12",
+      "description": "A shopper moves behind a crowded retail counter surrounded by small merchandise. Reaching and body movement within the restricted counter area drive the alert.",
+      "incident_report": {
+        "incident_summary": "A shopper moves behind a crowded retail counter surrounded by small merchandise. Reaching and body movement within the restricted counter area drive the alert.",
+        "timestamp": "00:00\u201300:15",
+        "visual_observations": [
+          "A shopper moves behind a crowded retail counter surrounded by small merchandise. Reaching and body movement within the restricted counter area drive the alert.",
+          "The anomaly score changes most strongly during the surfaced interval.",
+          "The surrounding footage should be reviewed to establish the full sequence."
+        ],
+        "supporting_evidence": [
+          "Moment 01 \u2014 flagged at frame 52.",
+          "Moment 02 \u2014 flagged at frame 302.",
+          "Moment 03 \u2014 flagged at frame 317."
+        ],
+        "evidence_note": "Illustrative timestamps; actual evidence should link to saved frames from the video.",
+        "recommended_next_steps": [
+          "Review the original footage around the flagged interval.",
+          "If the event is confirmed, notify the designated response team according to local protocol.",
+          "Check adjacent camera feeds for additional context, if authorized."
+        ],
+        "limitations": "The footage indicates a possible anomalous event, but intent, identities, causation, and consequences cannot be established from these frames alone."
+      },
+      "frames": [
+        {
+          "frame_index": 52,
+          "label": "Moment 01",
+          "url": "/output/demos/shoplifting/fr0.png"
+        },
+        {
+          "frame_index": 302,
+          "label": "Moment 02",
+          "url": "/output/demos/shoplifting/fr1.png"
+        },
+        {
+          "frame_index": 317,
+          "label": "Moment 03",
+          "url": "/output/demos/shoplifting/fr2.png"
+        },
+        {
+          "frame_index": 346,
+          "label": "Moment 04",
+          "url": "/output/demos/shoplifting/fr3.png"
+        },
+        {
+          "frame_index": 420,
+          "label": "Moment 05",
+          "url": "/output/demos/shoplifting/fr4.png"
+        }
+      ],
+      "location": "220 Greenfield Mall, Lakeside",
+      "ready": true,
+      "summary": {
+        "analysis_file": "out.gif",
+        "complete_clips": 28,
+        "duration_seconds": 15.233,
+        "fps": 30.0,
+        "frame_count": 457,
+        "score_max": 0.9999964833259583,
+        "score_min": 0.0008024852722883224,
+        "surfaced_frame_files": [
+          "fr0.png",
+          "fr1.png",
+          "fr2.png",
+          "fr3.png",
+          "fr4.png"
+        ],
+        "surfaced_frame_indices": [
+          52,
+          302,
+          317,
+          346,
+          420
+        ],
+        "thumbnail_file": "thumbnail.png"
+      },
+      "thumbnail_url": "/output/demos/shoplifting/thumbnail.png",
+      "featured": true,
+      "id": "shoplifting",
+      "label": "Shoplifting"
+    },
+    {
+      "analysis_url": "/output/demos/abuse/out.gif",
+      "camera_id": "CAM-DRIVE-04",
+      "description": "A dark-clothed person moves through a residential driveway beside closely parked SUVs. The abrupt activity near the vehicles creates the strongest visual transition.",
+      "incident_report": {
+        "incident_summary": "A dark-clothed person moves through a residential driveway beside closely parked SUVs. The abrupt activity near the vehicles creates the strongest visual transition.",
+        "timestamp": "00:00\u201300:10",
+        "visual_observations": [
+          "A dark-clothed person moves through a residential driveway beside closely parked SUVs. The abrupt activity near the vehicles creates the strongest visual transition.",
+          "The anomaly score changes most strongly during the surfaced interval.",
+          "The surrounding footage should be reviewed to establish the full sequence."
+        ],
+        "supporting_evidence": [
+          "The generated analysis visualization identifies the strongest score transition."
+        ],
+        "evidence_note": "Illustrative timestamps; actual evidence should link to saved frames from the video.",
+        "recommended_next_steps": [
+          "Review the original footage around the flagged interval.",
+          "If the event is confirmed, notify the designated response team according to local protocol.",
+          "Check adjacent camera feeds for additional context, if authorized."
+        ],
+        "limitations": "The footage indicates a possible anomalous event, but intent, identities, causation, and consequences cannot be established from these frames alone."
+      },
+      "frames": [],
+      "location": "1842 Cedar Hollow Dr, Brookfield",
+      "ready": true,
+      "summary": {
+        "analysis_file": "out.gif",
+        "complete_clips": 18,
+        "duration_seconds": 10.0,
+        "fps": 30.0,
+        "frame_count": 300,
+        "score_max": 0.0015414211666211486,
+        "score_min": 1.9343135426730385e-10,
+        "surfaced_frame_files": [],
+        "surfaced_frame_indices": [],
+        "thumbnail_file": "thumbnail.png"
+      },
+      "thumbnail_url": "/output/demos/abuse/thumbnail.png",
+      "featured": false,
+      "id": "abuse",
+      "label": "Abuse"
+    },
+    {
+      "analysis_url": "/output/demos/arrest/out.gif",
+      "camera_id": "CAM-GATE-02",
+      "description": "A marked patrol car stops along a wet residential road near a gated entrance. Vehicle arrival and roadside movement drive the elevated segment.",
+      "incident_report": {
+        "incident_summary": "A marked patrol car stops along a wet residential road near a gated entrance. Vehicle arrival and roadside movement drive the elevated segment.",
+        "timestamp": "00:00\u201300:37",
+        "visual_observations": [
+          "A marked patrol car stops along a wet residential road near a gated entrance. Vehicle arrival and roadside movement drive the elevated segment.",
+          "The anomaly score changes most strongly during the surfaced interval.",
+          "The surrounding footage should be reviewed to establish the full sequence."
+        ],
+        "supporting_evidence": [
+          "The generated analysis visualization identifies the strongest score transition."
+        ],
+        "evidence_note": "Illustrative timestamps; actual evidence should link to saved frames from the video.",
+        "recommended_next_steps": [
+          "Review the original footage around the flagged interval.",
+          "If the event is confirmed, notify the designated response team according to local protocol.",
+          "Check adjacent camera feeds for additional context, if authorized."
+        ],
+        "limitations": "The footage indicates a possible anomalous event, but intent, identities, causation, and consequences cannot be established from these frames alone."
+      },
+      "frames": [],
+      "location": "77 Westhaven Rd, Northgate",
+      "ready": true,
+      "summary": {
+        "analysis_file": "out.gif",
+        "complete_clips": 69,
+        "duration_seconds": 37.2,
+        "fps": 30.0,
+        "frame_count": 1116,
+        "score_max": 0.25364983081817627,
+        "score_min": 1.5988609547434862e-08,
+        "surfaced_frame_files": [],
+        "surfaced_frame_indices": [],
+        "thumbnail_file": "thumbnail.png"
+      },
+      "thumbnail_url": "/output/demos/arrest/thumbnail.png",
+      "featured": false,
+      "id": "arrest",
+      "label": "Arrest"
+    },
+    {
+      "analysis_url": "/output/demos/arson/out.gif",
+      "camera_id": "CAM-WAREHOUSE-07",
+      "description": "A sudden, intense burst of flame fills a dim indoor camera view. The rapid brightness expansion and obscured surroundings produce a sharp anomaly response.",
+      "incident_report": {
+        "incident_summary": "A sudden, intense burst of flame fills a dim indoor camera view. The rapid brightness expansion and obscured surroundings produce a sharp anomaly response.",
+        "timestamp": "00:00\u201300:12",
+        "visual_observations": [
+          "A sudden, intense burst of flame fills a dim indoor camera view. The rapid brightness expansion and obscured surroundings produce a sharp anomaly response.",
+          "The anomaly score changes most strongly during the surfaced interval.",
+          "The surrounding footage should be reviewed to establish the full sequence."
+        ],
+        "supporting_evidence": [
+          "The generated analysis visualization identifies the strongest score transition."
+        ],
+        "evidence_note": "Illustrative timestamps; actual evidence should link to saved frames from the video.",
+        "recommended_next_steps": [
+          "Review the original footage around the flagged interval.",
+          "If the event is confirmed, notify the designated response team according to local protocol.",
+          "Check adjacent camera feeds for additional context, if authorized."
+        ],
+        "limitations": "The footage indicates a possible anomalous event, but intent, identities, causation, and consequences cannot be established from these frames alone."
+      },
+      "frames": [],
+      "location": "410 Foundry Lane, East Junction",
+      "ready": true,
+      "summary": {
+        "analysis_file": "out.gif",
+        "complete_clips": 24,
+        "duration_seconds": 12.867,
+        "fps": 30.0,
+        "frame_count": 386,
+        "score_max": 0.9762856364250183,
+        "score_min": 1.2685720029992353e-08,
+        "surfaced_frame_files": [],
+        "surfaced_frame_indices": [],
+        "thumbnail_file": "thumbnail.png"
+      },
+      "thumbnail_url": "/output/demos/arson/thumbnail.png",
+      "featured": false,
+      "id": "arson",
+      "label": "Arson"
+    },
+    {
+      "analysis_url": "/output/demos/explosion/out.gif",
+      "camera_id": "CAM-SKYLINE-01",
+      "description": "A distant industrial structure emits a fast-rising plume visible against the sky. The sudden change in scale and density dominates the frame sequence.",
+      "incident_report": {
+        "incident_summary": "A distant industrial structure emits a fast-rising plume visible against the sky. The sudden change in scale and density dominates the frame sequence.",
+        "timestamp": "00:00\u201300:13",
+        "visual_observations": [
+          "A distant industrial structure emits a fast-rising plume visible against the sky. The sudden change in scale and density dominates the frame sequence.",
+          "The anomaly score changes most strongly during the surfaced interval.",
+          "The surrounding footage should be reviewed to establish the full sequence."
+        ],
+        "supporting_evidence": [
+          "The generated analysis visualization identifies the strongest score transition."
+        ],
+        "evidence_note": "Illustrative timestamps; actual evidence should link to saved frames from the video.",
+        "recommended_next_steps": [
+          "Review the original footage around the flagged interval.",
+          "If the event is confirmed, notify the designated response team according to local protocol.",
+          "Check adjacent camera feeds for additional context, if authorized."
+        ],
+        "limitations": "The footage indicates a possible anomalous event, but intent, identities, causation, and consequences cannot be established from these frames alone."
+      },
+      "frames": [],
+      "location": "12 Harbor Industrial Way, Port District",
+      "ready": true,
+      "summary": {
+        "analysis_file": "out.gif",
+        "complete_clips": 25,
+        "duration_seconds": 13.8,
+        "fps": 30.0,
+        "frame_count": 414,
+        "score_max": 5.243575742497342e-06,
+        "score_min": 6.586672873787336e-10,
+        "surfaced_frame_files": [],
+        "surfaced_frame_indices": [],
+        "thumbnail_file": "thumbnail.png"
+      },
+      "thumbnail_url": "/output/demos/explosion/thumbnail.png",
+      "featured": false,
+      "id": "explosion",
+      "label": "Explosion"
+    },
+    {
+      "analysis_url": "/output/demos/fighting/out.gif",
+      "camera_id": "CAM-LOBBY-06",
+      "description": "Two people engage in a close physical confrontation inside a building entrance. Rapid arm movement and changing body positions trigger the anomaly signal.",
+      "incident_report": {
+        "incident_summary": "Two people engage in a close physical confrontation inside a building entrance. Rapid arm movement and changing body positions trigger the anomaly signal.",
+        "timestamp": "00:00\u201300:34",
+        "visual_observations": [
+          "Two people engage in a close physical confrontation inside a building entrance. Rapid arm movement and changing body positions trigger the anomaly signal.",
+          "The anomaly score changes most strongly during the surfaced interval.",
+          "The surrounding footage should be reviewed to establish the full sequence."
+        ],
+        "supporting_evidence": [
+          "The generated analysis visualization identifies the strongest score transition."
+        ],
+        "evidence_note": "Illustrative timestamps; actual evidence should link to saved frames from the video.",
+        "recommended_next_steps": [
+          "Review the original footage around the flagged interval.",
+          "If the event is confirmed, notify the designated response team according to local protocol.",
+          "Check adjacent camera feeds for additional context, if authorized."
+        ],
+        "limitations": "The footage indicates a possible anomalous event, but intent, identities, causation, and consequences cannot be established from these frames alone."
+      },
+      "frames": [],
+      "location": "155 Union Plaza, Midtown",
+      "ready": true,
+      "summary": {
+        "analysis_file": "out.gif",
+        "complete_clips": 64,
+        "duration_seconds": 34.167,
+        "fps": 30.0,
+        "frame_count": 1025,
+        "score_max": 4.172862020368484e-07,
+        "score_min": 3.756678128297164e-13,
+        "surfaced_frame_files": [],
+        "surfaced_frame_indices": [],
+        "thumbnail_file": "thumbnail.png"
+      },
+      "thumbnail_url": "/output/demos/fighting/thumbnail.png",
+      "featured": false,
+      "id": "fighting",
+      "label": "Fighting"
+    },
+    {
+      "analysis_url": "/output/demos/road-accident/out.gif",
+      "camera_id": "CAM-TRAFFIC-14",
+      "description": "Traffic crosses a city intersection as a yellow taxi enters the monitored area. The unusual vehicle motion develops near the crossing and roadside signs.",
+      "incident_report": {
+        "incident_summary": "A vehicle appears to collide with a second vehicle at an intersection. One vehicle stops immediately after the apparent impact. The available frames suggest a possible road accident, but injuries and the full sequence of events cannot be confirmed from the provided evidence.",
+        "timestamp": "14:32:08\u201314:32:15",
+        "visual_observations": [
+          "Two vehicles converge at the intersection.",
+          "A sudden contact-like movement is visible.",
+          "One vehicle remains stationary afterward."
+        ],
+        "supporting_evidence": [
+          "Frame at 14:32:09 \u2014 vehicles approaching.",
+          "Frame at 14:32:11 \u2014 apparent contact.",
+          "Frame at 14:32:14 \u2014 vehicle stopped."
+        ],
+        "evidence_note": "Illustrative timestamps; actual evidence should link to saved frames from the video.",
+        "recommended_next_steps": [
+          "Review the original footage around the flagged interval.",
+          "If the event is confirmed, notify the designated response team according to local protocol.",
+          "Check adjacent camera feeds for additional context, if authorized."
+        ],
+        "limitations": "The footage supports a possible collision. Injuries, intent, fault, and the identities of the people involved are not established."
+      },
+      "frames": [],
+      "location": "8 Market & Grand Ave, Central City",
+      "ready": true,
+      "summary": {
+        "analysis_file": "out.gif",
+        "complete_clips": 6,
+        "duration_seconds": 3.467,
+        "fps": 30.0,
+        "frame_count": 104,
+        "score_max": 0.3198156952857971,
+        "score_min": 1.8848436700302784e-10,
+        "surfaced_frame_files": [],
+        "surfaced_frame_indices": [],
+        "thumbnail_file": "thumbnail.png"
+      },
+      "thumbnail_url": "/output/demos/road-accident/thumbnail.png",
+      "featured": false,
+      "id": "road-accident",
+      "label": "Road Accident"
+    },
+    {
+      "analysis_url": "/output/demos/robbery/out.gif",
+      "camera_id": "CAM-ALLEY-05",
+      "description": "A person in light clothing bends close to another individual beside a vehicle. Their compressed posture and abrupt interaction create the primary review window.",
+      "incident_report": {
+        "incident_summary": "A person in light clothing bends close to another individual beside a vehicle. Their compressed posture and abrupt interaction create the primary review window.",
+        "timestamp": "00:00\u201300:09",
+        "visual_observations": [
+          "A person in light clothing bends close to another individual beside a vehicle. Their compressed posture and abrupt interaction create the primary review window.",
+          "The anomaly score changes most strongly during the surfaced interval.",
+          "The surrounding footage should be reviewed to establish the full sequence."
+        ],
+        "supporting_evidence": [
+          "The generated analysis visualization identifies the strongest score transition."
+        ],
+        "evidence_note": "Illustrative timestamps; actual evidence should link to saved frames from the video.",
+        "recommended_next_steps": [
+          "Review the original footage around the flagged interval.",
+          "If the event is confirmed, notify the designated response team according to local protocol.",
+          "Check adjacent camera feeds for additional context, if authorized."
+        ],
+        "limitations": "The footage indicates a possible anomalous event, but intent, identities, causation, and consequences cannot be established from these frames alone."
+      },
+      "frames": [],
+      "location": "342 Station Road, Southbank",
+      "ready": true,
+      "summary": {
+        "analysis_file": "out.gif",
+        "complete_clips": 17,
+        "duration_seconds": 9.067,
+        "fps": 30.0,
+        "frame_count": 272,
+        "score_max": 0.9999997019767761,
+        "score_min": 4.199599970888812e-06,
+        "surfaced_frame_files": [],
+        "surfaced_frame_indices": [],
+        "thumbnail_file": "thumbnail.png"
+      },
+      "thumbnail_url": "/output/demos/robbery/thumbnail.png",
+      "featured": false,
+      "id": "robbery",
+      "label": "Robbery"
+    },
+    {
+      "analysis_url": "/output/demos/shooting/out.gif",
+      "camera_id": "CAM-ROAD-09",
+      "description": "Two vehicles converge on a roadway in a low-resolution camera view. Their sudden approach and close positioning correspond with the strongest detected change.",
+      "incident_report": {
+        "incident_summary": "Two vehicles converge on a roadway in a low-resolution camera view. Their sudden approach and close positioning correspond with the strongest detected change.",
+        "timestamp": "00:00\u201300:10",
+        "visual_observations": [
+          "Two vehicles converge on a roadway in a low-resolution camera view. Their sudden approach and close positioning correspond with the strongest detected change.",
+          "The anomaly score changes most strongly during the surfaced interval.",
+          "The surrounding footage should be reviewed to establish the full sequence."
+        ],
+        "supporting_evidence": [
+          "The generated analysis visualization identifies the strongest score transition."
+        ],
+        "evidence_note": "Illustrative timestamps; actual evidence should link to saved frames from the video.",
+        "recommended_next_steps": [
+          "Review the original footage around the flagged interval.",
+          "If the event is confirmed, notify the designated response team according to local protocol.",
+          "Check adjacent camera feeds for additional context, if authorized."
+        ],
+        "limitations": "The footage indicates a possible anomalous event, but intent, identities, causation, and consequences cannot be established from these frames alone."
+      },
+      "frames": [],
+      "location": "61 Ridgeway Blvd, West End",
+      "ready": true,
+      "summary": {
+        "analysis_file": "out.gif",
+        "complete_clips": 19,
+        "duration_seconds": 10.167,
+        "fps": 30.0,
+        "frame_count": 305,
+        "score_max": 0.059552669525146484,
+        "score_min": 4.103970638880128e-07,
+        "surfaced_frame_files": [],
+        "surfaced_frame_indices": [],
+        "thumbnail_file": "thumbnail.png"
+      },
+      "thumbnail_url": "/output/demos/shooting/thumbnail.png",
+      "featured": false,
+      "id": "shooting",
+      "label": "Shooting"
+    },
+    {
+      "analysis_url": "/output/demos/stealing/out.gif",
+      "camera_id": "CAM-PARKING-08",
+      "description": "A lone person stands near a parked dark vehicle on a narrow street. Movement around the vehicle and repeated proximity create the surfaced anomaly interval.",
+      "incident_report": {
+        "incident_summary": "A lone person stands near a parked dark vehicle on a narrow street. Movement around the vehicle and repeated proximity create the surfaced anomaly interval.",
+        "timestamp": "00:00\u201300:25",
+        "visual_observations": [
+          "A lone person stands near a parked dark vehicle on a narrow street. Movement around the vehicle and repeated proximity create the surfaced anomaly interval.",
+          "The anomaly score changes most strongly during the surfaced interval.",
+          "The surrounding footage should be reviewed to establish the full sequence."
+        ],
+        "supporting_evidence": [
+          "The generated analysis visualization identifies the strongest score transition."
+        ],
+        "evidence_note": "Illustrative timestamps; actual evidence should link to saved frames from the video.",
+        "recommended_next_steps": [
+          "Review the original footage around the flagged interval.",
+          "If the event is confirmed, notify the designated response team according to local protocol.",
+          "Check adjacent camera feeds for additional context, if authorized."
+        ],
+        "limitations": "The footage indicates a possible anomalous event, but intent, identities, causation, and consequences cannot be established from these frames alone."
+      },
+      "frames": [],
+      "location": "49 Old Mill Street, Stonebridge",
+      "ready": true,
+      "summary": {
+        "analysis_file": "out.gif",
+        "complete_clips": 46,
+        "duration_seconds": 25.033,
+        "fps": 30.0,
+        "frame_count": 751,
+        "score_max": 0.00039662435301579535,
+        "score_min": 1.412659912602976e-06,
+        "surfaced_frame_files": [],
+        "surfaced_frame_indices": [],
+        "thumbnail_file": "thumbnail.png"
+      },
+      "thumbnail_url": "/output/demos/stealing/thumbnail.png",
+      "featured": false,
+      "id": "stealing",
+      "label": "Stealing"
+    },
+    {
+      "analysis_url": "/output/demos/vandalism/out.gif",
+      "camera_id": "CAM-FRONT-03",
+      "description": "A person approaches parked cars during a low-light street recording. Activity close to the vehicle exterior produces the most notable frame transition.",
+      "incident_report": {
+        "incident_summary": "A person approaches parked cars during a low-light street recording. Activity close to the vehicle exterior produces the most notable frame transition.",
+        "timestamp": "00:00\u201300:22",
+        "visual_observations": [
+          "A person approaches parked cars during a low-light street recording. Activity close to the vehicle exterior produces the most notable frame transition.",
+          "The anomaly score changes most strongly during the surfaced interval.",
+          "The surrounding footage should be reviewed to establish the full sequence."
+        ],
+        "supporting_evidence": [
+          "The generated analysis visualization identifies the strongest score transition."
+        ],
+        "evidence_note": "Illustrative timestamps; actual evidence should link to saved frames from the video.",
+        "recommended_next_steps": [
+          "Review the original footage around the flagged interval.",
+          "If the event is confirmed, notify the designated response team according to local protocol.",
+          "Check adjacent camera feeds for additional context, if authorized."
+        ],
+        "limitations": "The footage indicates a possible anomalous event, but intent, identities, causation, and consequences cannot be established from these frames alone."
+      },
+      "frames": [],
+      "location": "731 Elm Terrace, Hillcrest",
+      "ready": true,
+      "summary": {
+        "analysis_file": "out.gif",
+        "complete_clips": 42,
+        "duration_seconds": 22.467,
+        "fps": 30.0,
+        "frame_count": 674,
+        "score_max": 0.8478561043739319,
+        "score_min": 5.850733032275457e-06,
+        "surfaced_frame_files": [],
+        "surfaced_frame_indices": [],
+        "thumbnail_file": "thumbnail.png"
+      },
+      "thumbnail_url": "/output/demos/vandalism/thumbnail.png",
+      "featured": false,
+      "id": "vandalism",
+      "label": "Vandalism"
+    }
+  ],
+  "sample": {
+    "analysis_url": "/output/sample_video/out.gif",
+    "camera_id": "CAM-ATM-01",
+    "description": "A vehicle enters the ATM drive-through as a person moves abruptly near the curb and machine. The close vehicle-person interaction produces the strongest anomaly spike.",
+    "incident_report": {
+      "incident_summary": "A vehicle enters the ATM drive-through as a person moves abruptly near the curb and machine. The close vehicle-person interaction produces the strongest anomaly spike.",
+      "timestamp": "00:00\u201300:38",
+      "visual_observations": [
+        "A vehicle enters the ATM drive-through as a person moves abruptly near the curb and machine. The close vehicle-person interaction produces the strongest anomaly spike.",
+        "The anomaly score changes most strongly during the surfaced interval.",
+        "The surrounding footage should be reviewed to establish the full sequence."
+      ],
+      "supporting_evidence": [
+        "Moment 01 \u2014 flagged at frame 94.",
+        "Moment 02 \u2014 flagged at frame 206.",
+        "Moment 03 \u2014 flagged at frame 243."
+      ],
+      "evidence_note": "Illustrative timestamps; actual evidence should link to saved frames from the video.",
+      "recommended_next_steps": [
+        "Review the original footage around the flagged interval.",
+        "If the event is confirmed, notify the designated response team according to local protocol.",
+        "Check adjacent camera feeds for additional context, if authorized."
+      ],
+      "limitations": "The footage indicates a possible anomalous event, but intent, identities, causation, and consequences cannot be established from these frames alone."
+    },
+    "frames": [
+      {
+        "frame_index": 94,
+        "label": "Moment 01",
+        "url": "/output/sample_video/fr0.png"
+      },
+      {
+        "frame_index": 206,
+        "label": "Moment 02",
+        "url": "/output/sample_video/fr1.png"
+      },
+      {
+        "frame_index": 243,
+        "label": "Moment 03",
+        "url": "/output/sample_video/fr2.png"
+      },
+      {
+        "frame_index": 542,
+        "label": "Moment 04",
+        "url": "/output/sample_video/fr3.png"
+      },
+      {
+        "frame_index": 766,
+        "label": "Moment 05",
+        "url": "/output/sample_video/fr4.png"
+      },
+      {
+        "frame_index": 1065,
+        "label": "Moment 06",
+        "url": "/output/sample_video/fr5.png"
+      }
+    ],
+    "location": "101 Capital Plaza, River District",
+    "ready": true,
+    "summary": {
+      "analysis_file": "out.gif",
+      "complete_clips": 72,
+      "duration_seconds": 38.633,
+      "fps": 30.0,
+      "frame_count": 1159,
+      "score_max": 0.9999997019767761,
+      "score_min": 1.526680762253818e-06,
+      "surfaced_frame_files": [
+        "fr0.png",
+        "fr1.png",
+        "fr2.png",
+        "fr3.png",
+        "fr4.png",
+        "fr5.png"
+      ],
+      "surfaced_frame_indices": [
+        94,
+        206,
+        243,
+        542,
+        766,
+        1065
+      ]
+    },
+    "thumbnail_url": "/output/sample_video/thumbnail.png"
+  }
+}

@@ -1,0 +1,14 @@
+docs
+pics
+__pycache__/
+*.py[cod]
+backend/vigil_env/
+backend/.keras/
+backend/trained_models/c3d_sports1m.h5
+backend/trained_models/c3d_mean.npy
+backend/output/predictions.npy
+backend/output/summary.json
+backend/output/runs/
+backend/runtime/
+backend/public/output/runs/
+backend/public/output/**/predictions.npy

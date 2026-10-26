@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "app.py": {
+      "excludeFiles": "{vigil_env/**,input/**,output/**,static/**,trained_models/**,tests/**,mockups/**,runtime/**,requirements-ml.txt,generate_demos.py,build_deployment_manifest.py,**/*.npy,.env,.env.*}"
+    }
+  }
+}

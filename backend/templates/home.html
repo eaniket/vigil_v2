@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#061009">
+  <meta name="description" content="Vigil local video anomaly intelligence dashboard">
+  <title>Vigil — Video anomaly intelligence</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <script defer src="{{ url_for('static', filename='js/app.js') }}"></script>
+</head>
+<body>
+  <div class="page-glow" aria-hidden="true"></div>
+
+  <main
+    class="site-shell"
+    id="app"
+    data-demo-url="{{ url_for('demo_result') }}"
+    data-analyze-url="{{ url_for('analyze_video') }}"
+    data-sample-url="{{ url_for('sample_analysis') }}"
+  >
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Vigil home">
+        <svg class="brand-mark" viewBox="0 0 40 24" aria-hidden="true">
+          <path d="M2 12c5-8 11-8 18 0s13 8 18 0"></path>
+          <path d="M2 12c5 8 11 8 18 0s13-8 18 0"></path>
+          <circle cx="20" cy="12" r="2.8"></circle>
+        </svg>
+        <span>VIGIL</span>
+      </a>
+
+      <div class="header-actions">
+        <div class="model-status" aria-label="Model ready for local CPU inference">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span>C3D · LOCAL CPU</span>
+        </div>
+        <nav class="header-nav" aria-label="Page navigation">
+          <a href="#features">Features</a>
+          <a href="#workspace">Dashboard</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="signal-lines" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <p class="eyebrow"><span>●</span> VIDEO ANOMALY INTELLIGENCE</p>
+      <h1 id="hero-title">See what changed.<br><span>Before it escalates.</span></h1>
+      <p class="hero-copy">
+        Vigil turns surveillance footage into a frame-level signal across <strong>13 anomalies</strong>,<br>
+        surfacing rapid changes for focused human review.
+      </p>
+      <div class="hero-actions">
+        <button class="hero-button hero-button-primary" type="button" data-tab-target="test">
+          <span aria-hidden="true">▶</span> Analyze footage <b aria-hidden="true">→</b>
+        </button>
+        <button class="hero-button hero-button-secondary" type="button" data-tab-target="demo">
+          View demo
+        </button>
+      </div>
+      <!-- <p class="privacy-note">
+        <span aria-hidden="true">▣</span> All processing happens locally on your machine
+        <i aria-hidden="true">·</i> No video leaves your device
+      </p> -->
+      <p class="detection-cycle" aria-label="Detect supported anomaly categories">
+        Detect: <strong id="detection-category" aria-hidden="true">Abuse</strong><span class="cycle-cursor" aria-hidden="true">_</span>
+      </p>
+      <!-- <div class="workflow-grid" id="features" aria-label="How Vigil works">
+        <article><span>01</span><div><strong>Decode</strong><p>Split footage into 16-frame temporal clips while preserving frame-level context.</p></div></article>
+        <article><span>02</span><div><strong>Score</strong><p>Transform visual motion into a continuous anomaly signal using the local C3D pipeline.</p></div></article>
+        <article><span>03</span><div><strong>Surface</strong><p>Highlight rapid score changes and package the result into a reviewable dashboard.</p></div></article>
+      </div> -->
+    </section>
+
+    <section class="dashboard-shell" id="workspace" aria-label="Vigil analysis dashboard">
+      <aside class="dashboard-sidebar">
+        <a class="sidebar-brand brand" href="#top" aria-label="Vigil home">
+          <svg class="brand-mark" viewBox="0 0 40 24" aria-hidden="true">
+            <path d="M2 12c5-8 11-8 18 0s13 8 18 0"></path>
+            <path d="M2 12c5 8 11 8 18 0s13-8 18 0"></path>
+            <circle cx="20" cy="12" r="2.8"></circle>
+          </svg>
+          <span>VIGIL</span>
+        </a>
+
+        <nav class="dashboard-nav" role="tablist" aria-label="Vigil modes">
+          <button class="tab-button" id="tab-test" role="tab" aria-selected="false" aria-controls="panel-test" data-tab="test" tabindex="-1">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V8l8-5 8 5v11h-6v-6h-4v6H4Z"></path></svg>
+            <span>Analyze</span>
+          </button>
+          <button class="tab-button is-active" id="tab-demo" role="tab" aria-selected="true" aria-controls="panel-demo" data-tab="demo">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="14" rx="2"></rect><path d="m10 9 5 3-5 3V9Z"></path></svg>
+            <span>Demo</span>
+          </button>
+        </nav>
+
+        <div class="sidebar-foot">
+          <span class="status-dot" aria-hidden="true"></span>
+          <p><strong>Local mode</strong><small>Private by design</small></p>
+        </div>
+      </aside>
+
+      <div class="dashboard-content">
+        <section class="tab-panel is-active" id="panel-demo" role="tabpanel" aria-labelledby="tab-demo">
+          <header class="panel-header">
+            <div>
+              <p class="panel-kicker">PRE-GENERATED RUN</p>
+              <h2>Demo</h2>
+              <p>Select an anomaly class to explore its analysis.</p>
+            </div>
+            <span class="state-badge"><i></i> Analysis ready</span>
+          </header>
+          <div id="demo-content" class="result-host" aria-live="polite">
+            <div class="loading-state"><span class="loader"></span><p>Loading analysis…</p></div>
+          </div>
+        </section>
+
+        <section class="tab-panel" id="panel-test" role="tabpanel" aria-labelledby="tab-test" hidden>
+          <header class="panel-header">
+            <div>
+              <p class="panel-kicker">LOCAL ANALYSIS</p>
+              <h2>Analyze video</h2>
+              <p>Upload footage to detect anomalous changes and generate a review timeline.</p>
+            </div>
+            <span class="state-badge"><i></i> C3D ready</span>
+          </header>
+
+          <form id="upload-form" class="upload-card" novalidate>
+            <input id="video-input" name="video" type="file" accept="video/mp4,video/quicktime,video/x-msvideo,video/x-matroska,.mp4,.mov,.avi,.mkv" hidden>
+            <label class="drop-zone" id="drop-zone" for="video-input">
+              <span class="upload-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 16V4m0 0L7.5 8.5M12 4l4.5 4.5M5 14v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-4"></path></svg>
+              </span>
+              <strong>Drop a video file, or click to upload</strong>
+              <span>MP4, MOV, AVI or MKV · Maximum 100 MB</span>
+            </label>
+
+            <div class="upload-detail">
+              <div class="selected-file" id="selected-file" hidden>
+                <span class="file-badge">VIDEO</span>
+                <p><strong id="file-name"></strong><span id="file-size"></span></p>
+                <button class="text-button" id="remove-file" type="button">Remove</button>
+              </div>
+              <div class="upload-placeholder">
+                <span>LOCAL PIPELINE</span>
+                <strong>Vigil anomaly analysis</strong>
+                <p>The selected file stays in your browser. After seven seconds, Vigil displays the pre-generated sample result.</p>
+              </div>
+              <button class="primary-button" id="analyze-button" type="submit" disabled>
+                <span>Run analysis</span><b aria-hidden="true">→</b>
+              </button>
+            </div>
+          </form>
+
+          <div id="test-status" class="test-status" role="status" aria-live="polite"></div>
+          <div id="test-content" class="result-host"></div>
+        </section>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>VIGIL / LOCAL RESEARCH DEMO</span>
+      <span>Surfaced moments are score transitions, not semantic incident labels.</span>
+    </footer>
+  </main>
+
+  <template id="result-template">
+    <article class="result-viewer">
+      <div class="viewer-toolbar">
+        <div><span class="status-dot"></span><strong>ANALYSIS COMPLETE</strong></div>
+        <span>FRAME-LEVEL ANOMALY TIMELINE</span>
+      </div>
+      <figure class="main-preview">
+        <img class="preview-image" alt="Vigil anomaly analysis visualization">
+        <figcaption class="preview-caption">Frame-level anomaly score over time</figcaption>
+      </figure>
+      <section class="run-summary" aria-label="Run details">
+        <div class="summary-heading">
+          <div><p class="panel-kicker">RUN DETAILS</p><h3>Analysis summary</h3></div>
+          <span class="review-badge">Needs review</span>
+        </div>
+        <dl class="run-context">
+          <div><dt>Location</dt><dd class="run-location"></dd></div>
+          <div><dt>Camera ID</dt><dd class="run-camera"></dd></div>
+        </dl>
+        <div class="incident-report">
+          <section><h4>Incident summary</h4><p class="incident-summary"></p></section>
+          <section>
+            <h4>Observed evidence</h4>
+            <h5>Timestamp</h5><p class="incident-timestamp report-value"></p>
+            <h5>Visual observations</h5><ul class="visual-observations"></ul>
+            <h5>Supporting evidence</h5><ul class="supporting-evidence"></ul>
+            <p class="evidence-note"></p>
+          </section>
+          <section><h4>Recommended next steps</h4><ol class="recommended-steps"></ol></section>
+          <section><h4>Uncertainty and limitations</h4><p class="incident-limitations"></p></section>
+        </div>
+        <dl class="metrics"></dl>
+        <p class="result-note">Vigil surfaces score transitions for human review. It does not assign an incident category.</p>
+      </section>
+    </article>
+  </template>
+
+  <noscript><p class="noscript">JavaScript is required for upload analysis.</p></noscript>
+</body>
+</html>

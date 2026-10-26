@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Tech Talk - Firebase Web</title>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <div class="navbar">
+    	<div class="left">
+    		Vigil
+    	</div>
+    	<div class="right">
+    		<!-- This is empty for future use -->
+    	</div>
+
+    </div>
+
+    <div class="container">
+	    <!-- This is the plot image that'll be here -->
+	    <div class="plot row">
+	    	<div class="col-lg-4">
+	    		<img height="250" width="250" id="graph"> 
+	    	</div>
+	    	<div class="col-lg-4">
+	    		<img height="250" width="250" id="frame1"> 
+	    	</div>
+	    	<div class="col-lg-4">
+	    		<img height="250" width="250" id="frame2"> 
+	    	</div>
+
+
+	    </div>
+	    <!-- specific counters -->
+	    <div class="row">
+	    	<div class="col-lg-4">
+	    		<h1 id="police" class="ctr">
+	    		POLICE
+	    		</h1>
+	    		<div class="icon">
+	    			<img src="police.png" height="70" width="70">
+	    		</div>
+	    	</div>
+	    	<div class="col-lg-4" >
+	    		<h1 id="med" class="ctr">
+	    			MEDICAL
+	    		</h1>
+	    		<div class="icon">
+	    			<img src="hospital.png" height="50" width="50">
+	    		</div>
+	    	</div>
+	    	<div class="col-lg-4" class="ctr">
+	    		<h1 id="fire" class="ctr"s>
+	    			FIRE
+	    		</h1>
+	    		<div class="icon">
+	    			<img src="fire.png" height="50" width="50">
+	    		</div>
+	    	</div>
+	    </div>
+	</div>
+	<script src="firebase.js"></script>
+
+	<div class="text-center">
+		<button onclick="resetData()" type="button" class="btn btn-primary">Reset</button>
+	  </div>
+
+</body>
+
+</html>
