@@ -143,6 +143,14 @@ button:focus-visible, a:focus-visible, label:focus-within {
 .eyebrow span { color: var(--green); }
 .hero h1 { margin: 24px 0 0; font-size: clamp(44px, 5vw, 70px); font-weight: 650; letter-spacing: -.067em; line-height: .95; }
 .hero h1 span { color: #b9d5bd; }
+.hero h1 em {
+  display: inline-block;
+  font-family: "Iowan Old Style", "Baskerville", "Times New Roman", serif;
+  font-size: 1.08em;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -.045em;
+}
 .hero-copy { margin: 30px 0 0; color: var(--muted); font-size: clamp(16px, 1.35vw, 19px); line-height: 1.65; }
 .hero-copy strong { padding: 2px 7px; border: 1px solid rgba(97, 237, 53, .24); border-radius: 6px; color: var(--green); background: rgba(97, 237, 53, .08); box-shadow: 0 0 22px rgba(97, 237, 53, .15); font-weight: 650; }
 .hero-actions { display: flex; justify-content: center; gap: 14px; margin-top: 42px; }
